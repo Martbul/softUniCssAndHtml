@@ -11,13 +11,20 @@ body {
   border: 2px solid #000;
   display: flex;
   gap: 2em;
+  
 }
-
+ @media (min-width: 800px){
+    .ui-fancy-quotes{
+        flex-direction: row;
+    }
+ }
 .ui-fancy-quotes main,
 .ui-fancy-quotes aside {
   display: flex;
   flex-direction: column;
 }
+
+
 
 .ui-fancy-quotes main {
   gap: 2em;
@@ -25,11 +32,40 @@ body {
 
 .ui-fancy-quotes main > .quote{
    flex: 1 0 auto; 
+   
 }
 .ui-fancy-quotes aside > .quote {
   flex: 1 0 auto;
 }
 
-.ui-fancy-quotes .quote {
-  background: white;
+.ui-fancy-quotes  .quote{
+display: flex;
+flex-direction: column;
 }
+
+.ui-fancy-quotes .quote .inner {
+    flex-grow: 1;
+  background: white;
+  padding: 0.6em 1.2em;
+  display: flex;
+  gap: 2em;
+
+}
+
+
+
+.ui-fancy-quotes .quote .avatar{
+    width: 6em;
+    display: block;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color:#090;
+}
+
+.ui-fancy-quotes .quote .media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
