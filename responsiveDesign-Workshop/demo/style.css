@@ -1,0 +1,35 @@
+body {
+  padding: 2em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ccc;
+}
+.ui-fancy-quotes {
+  border: 2px solid #000;
+  display: flex;
+  gap: 2em;
+}
+
+.ui-fancy-quotes main,
+.ui-fancy-quotes aside {
+  display: flex;
+  flex-direction: column;
+}
+
+.ui-fancy-quotes main {
+  gap: 2em;
+}
+
+.ui-fancy-quotes main > .quote{
+   flex: 1 0 auto; 
+}
+.ui-fancy-quotes aside > .quote {
+  flex: 1 0 auto;
+}
+
+.ui-fancy-quotes .quote {
+  background: white;
+}
