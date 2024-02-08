@@ -1,0 +1,42 @@
+table{
+    background: white;
+    border-collapse: collapse;
+}
+table,
+table th,
+table td{
+    border: 1px solid #ccc;
+}
+
+table td{
+    padding: 0.5em 1em;
+}
+
+table thead th,
+table thead td{
+    background: #333;
+    color:white
+}
+
+@media (max-width: 800px) {
+    table, tbody,tr, td, th{
+        display: block;
+    }
+    thead{
+        display: none;
+    }
+    tbody, tr{
+        border: 1px solid #000;
+    }
+
+    tbody, td{
+        display: flex;
+    }
+    tbody, td:before{
+        display: inline-block;
+        content:attr(data-title);
+        font-weight: bold;
+   flex: 0 0 80px;
+   margin-right: 1em;
+    }
+}
