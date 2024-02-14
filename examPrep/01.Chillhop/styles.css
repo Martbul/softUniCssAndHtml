@@ -31,7 +31,9 @@ article {
 
 article .content {
   /* (it can grow, it can shrink) */
+  /* contenta e auto , toest iskame da se razpuva i sviva zatowa e 1 1 auto */
   flex: 1 1 auto;
+  padding-top: 1em;
 }
 
 article .media {
