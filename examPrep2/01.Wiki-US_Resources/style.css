@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 16px/1.5 "Agbalumo", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  padding: 2em;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  max-width: 840px;
+  margin: 0 auto;
+  border: 4px solid black;
+}
+
+.heading {
+  background: #d5ebea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.border-wrap{
+   
+   width: 95%;
+    border-bottom: 2px solid black
+}
+
+.heading .border-wrap h2 {
+  margin: 0 auto;
+   font-size: 2.45em;
+   margin-top: 0.8em ;
+   
+
+}
+
+.heading h4{
+     margin: 0 auto;
+     
+}
+
+
+.container{
+   margin-top: 1em;
+   display: flex;
+   gap: 1em;
+   
+}
+
+.card{
+   display: flex;
+   flex-direction: column;
+   border: 2px solid black;
+   padding: 0.5em;
+   margin: 1em;
+}
+
+.container .card p{
+   text-indent: 2em;
+   font-size: 0.8em;
+} 
+
+.container .content{
+   margin: 1em;
+   justify-content: center;
+   margin-top: 3em;
+}
+
+.container .content p{
+    text-indent: 2em;
+}
+
+.facts{
+    background: #d5ebea;
+  display: flex;
+  flex-direction: column;
+  
+}
+.facts p{
+   margin-left: 3em;
+}
+
+.facts-heading{
+   margin-right: 29em;
+   background:black;
+   color:white;
+}
+
+
+.facts-heading h3{
+   margin: 0 auto;
+}

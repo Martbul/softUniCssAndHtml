@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 20px/1.5 "Ubuntu", sans-serif;
+}
+
+.description {
+  background: #56dbb1;
+}
+
+.services,
+.moreColumns {
+  background: #353434;
+  color: #fff;
+}
+
+.site-header {
+  /* background: #00052f; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+}
+
+.title-owner {
+  display: flex;
+}
+
+.site-header nav ul {
+  padding-top: 1em;
+  display: flex;
+}
+.site-header .title-owner .site-title a {
+  text-decoration: none;
+  font-size: 2.6em;
+  color: #313131;
+  border-right: 3px solid #dbdbdb;
+  padding-right: 0.35em;
+  padding-left: 0.4em;
+}
+.site-header .title-owner .minitext p {
+  color: #808080;
+  font-size: 0.8em;
+  margin-top: 2.8em;
+  margin-left: 1em;
+}
+
+.site-header nav li {
+  list-style: none outside;
+  padding: 0 0.6em;
+}
+
+.site-header nav a {
+  text-decoration: none;
+  border: 0.7em solid #ececec;
+  color: #69697e;
+}
+
+.site-banner img {
+  width: 100%;
+  height: 50%;
+}
+
+.site-banner img {
+  height: 482px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.description {
+  background: #56dbb1;
+  color: #353434;
+}
+.description p {
+  padding: 5em 11em;
+}
+
+.moreColumns,
+.services .moreColumns {
+  display: flex;
+  padding: 7.5em 8.5em;
+}
+
+.services .services-container .column {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.services .services-container .column h5 {
+  border-bottom: 2px solid #fff;
+  width: 90%;
+  padding-bottom: 1em;
+}
+
+.services .services-container .column p {
+  margin-top: 1em;
+
+  color: #5b5956;
+  font-size: 0.8em;
+}
+.services .services-container .column .icon-media {
+  background: #56dbb1;
+  display: inline-block;
+}
+
+.moreinfo .more-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5em 25em;
+}
+
+.moreinfo .more-info-container h2 {
+  color: #5f5f5f;
+}
+
+.moreinfo .more-info-container p {
+  color: #c3bcb8;
+  margin-bottom: 2.2em;
+}
+
+.moreinfo .more-info-container a {
+  background-color: #974d1b;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.moreColumns h4 {
+  align-items: center;
+}
+.moreColumns p {
+  color: #5b5956;
+}
+
+.site-footer {
+  background: #1b9772;
+  padding: 4em;
+}
+
+.site-footer .f1 {
+  display: flex;
+  justify-content: center;
+}
+
+.site-footer .f1 p {
+  color: #56dbb1;
+}
