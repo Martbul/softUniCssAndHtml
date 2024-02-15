@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 20px/1.5 "Inter", sans-serif;
+}
+h1 {
+  font-size: 1.8em;
+}
+h2 {
+  font-size: 1.6em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  padding: 2em;
+}
+
+article {
+  display: flex;
+  max-width: 1920px;
+  margin: 0 auto;
+  justify-content: center;
+
+  background-image: url("./image/background.jpg");
+  background-size: cover;
+  gap: 2em;
+}
+
+.card {
+  
+  background: white;
+  padding-left: 2em;
+}
+
+.card .plan-type {
+  padding-top: 2.2em;
+}
+
+.card .plan-price {
+  margin-top: 3em;
+}
+
+
+.card .billing {
+  margin-top: 3em;
+}
+
+.card .billing p{
+  color: grey;
+  font-size: 0.9em;
+}
+
+
+.card .perks {
+  margin-top: 1em;
+}
+
